@@ -2,6 +2,8 @@
 
 My journey into operating system development using C, Assembly, GRUB, and Bochs.
 
+<br/>
+
 ## Overview
 
 This project is my first step into low-level systems programming and operating system development.
@@ -16,7 +18,7 @@ At the current stage, the project successfully:
 * Transfers execution control to my assembly entry point
 * Executes custom assembly instructions
 
-
+<br/>
 
 ## What Happens During Boot
 
@@ -32,7 +34,7 @@ GRUB detects the Multiboot header inside the kernel and loads the ELF executable
 
 After loading, execution jumps to the `loader` symbol defined as the kernel entry point.
 
----
+<br/>
 
 ## Project Structure
 
@@ -68,8 +70,6 @@ The kernel writes the value `0xCAFEBABE` into the EAX register and then enters a
 
 This serves as a proof that the CPU successfully reaches and executes my code.
 
----
-
 ### link.ld
 
 The linker script controls how the kernel is laid out in memory.
@@ -82,7 +82,6 @@ ENTRY(loader)
 
 This tells the linker that execution begins at the `loader` symbol.
 
----
 
 ### menu.lst
 
@@ -95,7 +94,6 @@ kernel /boot/kernel.elf
 
 This instructs GRUB to load the kernel ELF image from the ISO.
 
----
 
 ### bochsrc.txt
 
@@ -109,37 +107,28 @@ It specifies:
 * ISO image
 * Logging options
 
----
-
-## Understanding CAFEBABE
-
-The value:
-
-```text
-0xCAFEBABE
-```
-
-is a well-known hexadecimal marker frequently used by programmers.
-
-In this project it acts as a recognizable value placed into a CPU register to confirm that execution has reached the kernel entry point.
-
+<br/>
 
 ## Current Status
-[x] Multiboot-compliant kernel
-[x] GRUB integration
-[x] ELF kernel loading
-[x] Successful boot in Bochs
-[x] Custom assembly execution
+- [x] Multiboot-compliant kernel
+- [x] GRUB integration
+- [x] ELF kernel loading
+- [x] Successful boot in Bochs
+- [x] Custom assembly execution
 
-### Next Goals
+<br/>
 
-* Write text directly to VGA memory
-* Display "Hello World" on screen
-* Introduce a C kernel
-* Build basic screen output functions
-* Create a simple kernel architecture
-* Learn memory management fundamentals
-* Implement interrupts and keyboard input
+## Next Goals
+
+- [ ] Write text directly to VGA memory
+- [ ] Display "Hello World" on screen
+- [ ] Introduce a C kernel
+- [ ] Build basic screen output functions
+- [ ] Create a simple kernel architecture
+- [ ] Learn memory management fundamentals
+- [ ] Implement interrupts and keyboard input
+
+  </br>
 
 
 ## Why This Project Exists
