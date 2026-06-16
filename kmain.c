@@ -1,11 +1,8 @@
-void kmain(){
-    char *video_memory = (char *)0xB8000;
+void fb_write(const char *buf, unsigned int len);
 
-    video_memory[0] = 'H';
-    video_memory[1] = 0x07;
-
-    video_memory[2] = 'I';
-    video_memory[3] = 0x07;
+void kmain()
+{
+    fb_write("Hi from my kernel!", 18);
 
     while (1)
     {

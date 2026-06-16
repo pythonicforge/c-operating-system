@@ -28,46 +28,46 @@
 00000000000i[USBCTL] Pluggable USB devices
 00000000000i[USBCTL]   printer hub floppy disk cdrom mouse tablet keypad
 00000000000i[USBCTL]   keyboard
-00000000000i[MEM0  ] allocated memory at 0x7f0b43a43010. after alignment, vector=0x7f0b43a44000, block_size = 128K
+00000000000i[MEM0  ] allocated memory at 0x7f4abfbe6010. after alignment, vector=0x7f4abfbe7000, block_size = 128K
 00000000000i[MEM0  ] 32.00MB
 00000000000i[MEM0  ] mem block size = 0x00020000, blocks=256
 00000000000i[MEM0  ] rom at 0xffff0000/65536 ('/usr/share/bochs/BIOS-bochs-legacy')
 00000000000i[CPU0  ] WARNING: RDRAND would not produce true random numbers !
 00000000000i[CPU0  ] initialized CPU model corei7_haswell_4770
 00000000000i[DEV   ] will paste characters every 100 iodev timer ticks
-00000000000i[      ] lt_dlhandle is 0x558d63d7d730
+00000000000i[      ] lt_dlhandle is 0x55cacba22730
 00000000000i[PLUGIN] loaded plugin libbx_soundalsa.so
 00000000000i[WAVOUT] ALSA: opened default PCM output device
 00000000000i[WAVOUT] changed sample rate to 44101
-00000000000i[      ] lt_dlhandle is 0x558d644f0120
+00000000000i[      ] lt_dlhandle is 0x55cacc195120
 00000000000i[PLUGIN] loaded plugin libbx_pci.so
-00000000000i[      ] lt_dlhandle is 0x558d644efb70
+00000000000i[      ] lt_dlhandle is 0x55cacc194b70
 00000000000i[PLUGIN] loaded plugin libbx_pci2isa.so
-00000000000i[      ] lt_dlhandle is 0x558d644f0410
+00000000000i[      ] lt_dlhandle is 0x55cacc195410
 00000000000i[PLUGIN] loaded plugin libbx_usb_uhci.so
-00000000000i[      ] lt_dlhandle is 0x558d644f4be0
+00000000000i[      ] lt_dlhandle is 0x55cacc199be0
 00000000000i[PLUGIN] loaded plugin libbx_acpi.so
-00000000000i[      ] lt_dlhandle is 0x558d644f5660
+00000000000i[      ] lt_dlhandle is 0x55cacc19a660
 00000000000i[PLUGIN] loaded plugin libbx_hpet.so
-00000000000i[      ] lt_dlhandle is 0x558d644f64f0
+00000000000i[      ] lt_dlhandle is 0x55cacc19b4f0
 00000000000i[PLUGIN] loaded plugin libbx_cmos.so
-00000000000i[      ] lt_dlhandle is 0x558d644f6d30
+00000000000i[      ] lt_dlhandle is 0x55cacc19bd30
 00000000000i[PLUGIN] loaded plugin libbx_dma.so
-00000000000i[      ] lt_dlhandle is 0x558d644f76b0
+00000000000i[      ] lt_dlhandle is 0x55cacc19c6b0
 00000000000i[PLUGIN] loaded plugin libbx_pic.so
-00000000000i[      ] lt_dlhandle is 0x558d644f7e60
+00000000000i[      ] lt_dlhandle is 0x55cacc19ce60
 00000000000i[PLUGIN] loaded plugin libbx_pit.so
-00000000000i[      ] lt_dlhandle is 0x558d644f8840
+00000000000i[      ] lt_dlhandle is 0x55cacc19d840
 00000000000i[PLUGIN] loaded plugin libbx_vga.so
-00000000000i[      ] lt_dlhandle is 0x558d644f9dc0
+00000000000i[      ] lt_dlhandle is 0x55cacc19edc0
 00000000000i[PLUGIN] loaded plugin libbx_floppy.so
-00000000000i[      ] lt_dlhandle is 0x558d644faab0
+00000000000i[      ] lt_dlhandle is 0x55cacc19fab0
 00000000000i[PLUGIN] loaded plugin libbx_ioapic.so
-00000000000i[      ] lt_dlhandle is 0x558d644fb2d0
+00000000000i[      ] lt_dlhandle is 0x55cacc1a02d0
 00000000000i[PLUGIN] loaded plugin libbx_keyboard.so
-00000000000i[      ] lt_dlhandle is 0x558d644fbbf0
+00000000000i[      ] lt_dlhandle is 0x55cacc1a0bf0
 00000000000i[PLUGIN] loaded plugin libbx_harddrv.so
-00000000000i[      ] lt_dlhandle is 0x558d644fdba0
+00000000000i[      ] lt_dlhandle is 0x55cacc1a2ba0
 00000000000i[PLUGIN] loaded plugin libbx_pci_ide.so
 00000000000i[PLUGIN] init_dev of 'pci' plugin device by virtual method
 00000000000i[DEV   ] i440FX PMC present at device 0, function 0
@@ -75,7 +75,7 @@
 00000000000i[DEV   ] PIIX3 PCI-to-ISA bridge present at device 1, function 0
 00000000000i[PLUGIN] init_dev of 'cmos' plugin device by virtual method
 00000000000i[CMOS  ] Using local time for initial clock
-00000000000i[CMOS  ] Setting initial clock to: Tue Jun 16  8:52:09   2026 tz=utc (time0=1781599929)
+00000000000i[CMOS  ] Setting initial clock to: Tue Jun 16  9:31:53   2026 tz=utc (time0=1781602313)
 00000000000i[PLUGIN] init_dev of 'dma' plugin device by virtual method
 00000000000i[DMA   ] channel 4 used by cascade
 00000000000i[PLUGIN] init_dev of 'pic' plugin device by virtual method
@@ -108,7 +108,7 @@
 00000000000i[CD1   ] load cdrom with path='os.iso'
 00000000000i[CD1   ] Opening image file as a cd.
 00000000000i[HD    ] Media present in CD-ROM drive
-00000000000i[HD    ] Capacity is 235 sectors (0.46 MB)
+00000000000i[HD    ] Capacity is 241 sectors (0.47 MB)
 00000000000i[PLUGIN] init_dev of 'pci_ide' plugin device by virtual method
 00000000000i[DEV   ] PIIX3 PCI IDE controller present at device 1, function 1
 00000000000i[PLUGIN] init_dev of 'biosdev' plugin device by virtual method
@@ -265,32 +265,32 @@
 00000439530i[BXVGA ] VBE known Display Interface b0c5
 00000442169i[VBIOS ] VBE Bios $Id: vbe.c 292 2021-06-03 12:24:22Z vruppert $
 00004184604i[BIOS  ] IDE time out
-01504502531i[BIOS  ] Booting from 07c0:0000
-01504597892i[BIOS  ] int13_harddisk: function 41, unmapped device for ELDL=80
-01504601564i[BIOS  ] int13_harddisk: function 08, unmapped device for ELDL=80
-01504605237i[BIOS  ] *** int 15h function AX=00c0, BX=0000 not yet supported!
-02099587000p[SDL2  ] >>PANIC<< User requested shutdown.
-02099587000i[CPU0  ] CPU is in protected mode (active)
-02099587000i[CPU0  ] CS.mode = 32 bit
-02099587000i[CPU0  ] SS.mode = 32 bit
-02099587000i[CPU0  ] EFER = 0x00000000: ffxsr nxe lma lme sce
-02099587000i[CPU0  ] XCR0=0x00000001: tiledata tilecfg hwp lbr uintr hdc cet_s cet_u pasid pkru pt hi_zmm zmm_hi256 opmask bndcfg bndregs ymm sse FPU
-02099587000i[CPU0  ] | EAX=000b8003  EBX=0002cd80  ECX=00000001  EDX=00000000
-02099587000i[CPU0  ] | ESP=00101fe8  EBP=00101ff8  ESI=0002ced8  EDI=0002ced9
-02099587000i[CPU0  ] | EFLAGS=00000006: id vip vif ac vm rf nt IOPL=0 of df if tf sf zf af PF cf
-02099587000i[CPU0  ] | SEG sltr(index|ti|rpl)     base    limit G D
-02099587000i[CPU0  ] |  CS:0008( 0001| 0|  0) 00000000 ffffffff 1 1
-02099587000i[CPU0  ] |  DS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
-02099587000i[CPU0  ] |  SS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
-02099587000i[CPU0  ] |  ES:0010( 0002| 0|  0) 00000000 ffffffff 1 1
-02099587000i[CPU0  ] |  FS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
-02099587000i[CPU0  ] |  GS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
-02099587000i[CPU0  ] | EIP=00100044 (00100044)
-02099587000i[CPU0  ] | CR0=0x60000011: pg CD NW ac wp ne ET ts em mp PE
-02099587000i[CPU0  ] | CR2=0x00000000
-02099587000i[CPU0  ] | CR3=0x00000000
-02099587000i[CPU0  ] | CR4=0x00000000: lass uintr pks cet pke smap smep keylock osxsave pcid fsgsbase smx vmx la57 umip osxmmexcpt osfxsr pce pge mce pae pse de tsd pvi vme
-02099587000i[CPU0  ] 0x0000000000100044>> nop  : 90
-02099587000i[CMOS  ] Last time: 1781602028 tz=utc (Tue Jun 16  9:27:08   2026)
-02099587000i[      ] restoring default signal behavior
-02099587000i[SIM   ] quit_sim called with exit code 1
+01574447521i[BIOS  ] Booting from 07c0:0000
+01574542882i[BIOS  ] int13_harddisk: function 41, unmapped device for ELDL=80
+01574546554i[BIOS  ] int13_harddisk: function 08, unmapped device for ELDL=80
+01574550227i[BIOS  ] *** int 15h function AX=00c0, BX=0000 not yet supported!
+20634887000p[SDL2  ] >>PANIC<< User requested shutdown.
+20634887000i[CPU0  ] CPU is in protected mode (active)
+20634887000i[CPU0  ] CS.mode = 32 bit
+20634887000i[CPU0  ] SS.mode = 32 bit
+20634887000i[CPU0  ] EFER = 0x00000000: ffxsr nxe lma lme sce
+20634887000i[CPU0  ] XCR0=0x00000001: tiledata tilecfg hwp lbr uintr hdc cet_s cet_u pasid pkru pt hi_zmm zmm_hi256 opmask bndcfg bndregs ymm sse FPU
+20634887000i[CPU0  ] | EAX=00000012  EBX=00103004  ECX=00000082  EDX=000003d5
+20634887000i[CPU0  ] | ESP=00104ff0  EBP=00104ff8  ESI=0002ced8  EDI=0002ced9
+20634887000i[CPU0  ] | EFLAGS=00000006: id vip vif ac vm rf nt IOPL=0 of df if tf sf zf af PF cf
+20634887000i[CPU0  ] | SEG sltr(index|ti|rpl)     base    limit G D
+20634887000i[CPU0  ] |  CS:0008( 0001| 0|  0) 00000000 ffffffff 1 1
+20634887000i[CPU0  ] |  DS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+20634887000i[CPU0  ] |  SS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+20634887000i[CPU0  ] |  ES:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+20634887000i[CPU0  ] |  FS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+20634887000i[CPU0  ] |  GS:0010( 0002| 0|  0) 00000000 ffffffff 1 1
+20634887000i[CPU0  ] | EIP=00101179 (00101179)
+20634887000i[CPU0  ] | CR0=0x60000011: pg CD NW ac wp ne ET ts em mp PE
+20634887000i[CPU0  ] | CR2=0x00000000
+20634887000i[CPU0  ] | CR3=0x00000000
+20634887000i[CPU0  ] | CR4=0x00000000: lass uintr pks cet pke smap smep keylock osxsave pcid fsgsbase smx vmx la57 umip osxmmexcpt osfxsr pce pge mce pae pse de tsd pvi vme
+20634887000i[CPU0  ] 0x0000000000101179>> nop  : 90
+20634887000i[CMOS  ] Last time: 1781622947 tz=utc (Tue Jun 16 15:15:47   2026)
+20634887000i[      ] restoring default signal behavior
+20634887000i[SIM   ] quit_sim called with exit code 1
