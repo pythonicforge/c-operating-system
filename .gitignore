@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+bochslog.txt
+*.iso
+
 # Object files
 *.o
 *.ko
